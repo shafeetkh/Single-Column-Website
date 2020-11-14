@@ -186,12 +186,17 @@ body {
 	}
 
 	.header {
-		background: black;
+		background: url(img/park.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: fixed;
 	}
 	.header h1,
 	.header h3 {
+		background: white;
+		width: auto;
 		margin-left: 0px;
 		text-align: center;
-		color: white;
+		color: black;
 	}
 }
